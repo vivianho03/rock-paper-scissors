@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lacquer&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+        <h1>Fire Water Air</h1>
+    </header>
+    <div class = background>
+      <img src = "http://www.worldanvil.com/uploads/images/4e1a6d81142b84856ea069196665147c.jpg" />
+    </div>
+    <div class = "score-board">
+        <div id = "user-label" class = "userContainer">User</div>
+        <div id = "comp-label" class = "userContainer"> Avatar</div>
+        <span id = user-score>0</span> : <span id = comp-score>0</span>
+    </div>
+    <div class = "result">
+        <p>Fire extinguishes Water. You win!</p>
+    </div>
+    <div class = "choices">
+        <div class = "choice" id = "fire">
+            <img src = "https://cdn-icons-png.flaticon.com/512/3982/3982928.png" alt = "fire symbol"/>
+        </div>
+        <div class = "choice" id = "water">
+            <img src = "https://cdn-icons-png.flaticon.com/512/2267/2267491.png" alt = "water symbol"/>
+        </div>
+        <div class = "choice" id = "air">
+            <img src = "https://cdn-icons-png.flaticon.com/512/3131/3131901.png" alt = "air symbol"/>
+        </div>
+    </div>
+    <p id = "action-message"> Make Your Decision</p>
+    <script src = "app.js" charset = "utf-8"></script>
+  </body>
+</html>
